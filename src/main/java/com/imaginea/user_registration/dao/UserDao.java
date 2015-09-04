@@ -6,7 +6,11 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * Created by maninders on 25/8/15.
+ * <h1> UserDao.class</h1>
+ * This interface is list of abstract methods 
+ * which are implemented in subclasses to perform operations triggered from UI.
+ * 
+ * @author maninders
  */
 public interface UserDao {
 

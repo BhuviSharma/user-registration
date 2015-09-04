@@ -1,13 +1,15 @@
 package com.imaginea.user_registration.controller;
 
+import org.apache.log4j.Logger;
+
 import com.imaginea.user_registration.constant.Constant;
 import com.imaginea.user_registration.constant.UIMessageConstant;
 import com.imaginea.user_registration.pojo.User;
 import com.imaginea.user_registration.service.UserRegistrationService;
-import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +17,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by maninders on 25/8/15.
+ * <h1> UserRegistrationController.class </h1>
+ * The UserRegistrationController class is the entry point for Jersey Framework and 
+ * rest api will be processed here according to path specified.
+ * 
+ * @author maninders
  */
 
 @Path("/registration")

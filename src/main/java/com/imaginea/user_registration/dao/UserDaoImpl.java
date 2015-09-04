@@ -9,7 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by maninders on 25/8/15.
+ * <h1> UserDaoImpl.class</h1>
+ * This class is having list of utility methods 
+ * which are used to perform operations triggered from UI.
+ * 
+ * @author maninders
  */
 public class UserDaoImpl implements UserDao {
 
@@ -66,31 +70,6 @@ public class UserDaoImpl implements UserDao {
                 connection.close();
             }
         }
-
-//        List<User> userList = new ArrayList<User>();
-//        User user = new User();
-//        user.setUserId(1);
-//        user.setFirstName("maninder");
-//        user.setMiddleName("");
-//        user.setLastName("singh");
-//        user.setAddress("delhi");
-//        user.setState("delhi");
-//        user.setCountry("india");
-//        user.setZip("500034");
-//        user.setEmail("tst@test.com");
-//        userList.add(user);
-//        user = new User();
-//        user.setUserId(1);
-//        user.setFirstName("ashok");
-//        user.setMiddleName("");
-//        user.setLastName("c");
-//        user.setAddress("hyderabad");
-//        user.setState("delhi");
-//        user.setCountry("india");
-//        user.setZip("500034");
-//        user.setEmail("tst@test.com");
-//        userList.add(user);
-//        return userList;
     }
 
     @Override

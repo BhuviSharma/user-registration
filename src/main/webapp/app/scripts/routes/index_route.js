@@ -3,7 +3,9 @@
  */
 
 UserRegistrationApp.IndexRoute = Ember.Route.extend({
-    afterModel : function(model, transition){
-        this.transitionTo('get-all-users');
-    }
+//    model : function () {
+//        return ["red","blue","green"];
+//    }
+
 });
+
